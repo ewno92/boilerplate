@@ -1,0 +1,7 @@
+@host = http://localhost:3000
+
+get {{host}}
+
+###
+get http://localhost:3000/33
+Content-Type: application/json
